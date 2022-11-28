@@ -1,5 +1,7 @@
 /*complie : 
-clang++ -std=c++11 -I<headers> -L<lib>  -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc <vert_gen.cpp>  \
+clang++ -std=c++11 -I<headers> -L<lib>  -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc vert_gen.cpp  \
+run : 
+./a.out <img>
 */
 #include "opencv2/core.hpp"
 #include "opencv2/imgcodecs.hpp"
